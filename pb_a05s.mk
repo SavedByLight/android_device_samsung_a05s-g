@@ -18,7 +18,7 @@
 PRODUCT_RELEASE_NAME := a05s
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a05s/device.mk)
+$(call inherit-product, device/samsung/a05s/device_pb.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := pb_a05s
