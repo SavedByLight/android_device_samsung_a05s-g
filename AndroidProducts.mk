@@ -6,9 +6,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_a05s.mk
+    $(LOCAL_DIR)/twrp_a05s.mk \
+    $(LOCAL_DIR)/pb_a05s.mk
 
 COMMON_LUNCH_CHOICES := \
     twrp_a05s-user \
     twrp_a05s-userdebug \
-    twrp_a05s-eng
+    twrp_a05s-eng \
+    pb_a05s-user \
+    pb_a05s-userdebug \
+    pb_a05s-eng
