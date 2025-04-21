@@ -20,11 +20,13 @@ PRODUCT_RELEASE_NAME := a05s
 # Inherit device configuration
 $(call inherit-product, device/samsung/a05s/device_pb.mk)
 
-## Device identifier. This must come after all inclusions
-PRODUCT_NAME := pb_a05s
-PRODUCT_DEVICE := a05s
-PRODUCT_MODEL := SM-A057G
+# Set those variables here to overwrite the inherited values. 
+BOARD_VENDOR := qcom
 PRODUCT_BRAND := samsung
+PRODUCT_DEVICE := a05s
+PRODUCT_NAME := pb_a05s 
 PRODUCT_MANUFACTURER := samsung
+PRODUCT_MODEL := A057G
+TARGET_VENDOR := samsung
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a05s/recovery/root,recovery/root)
