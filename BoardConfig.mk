@@ -17,4 +17,4 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 include device/samsung/bengal-common/BoardConfigCommon.mk
 
 # Version
-TW_DEVICE_VERSION := SavedByLight_A057G
+TW_DEVICE_VERSION := a05s_classic
